@@ -1,0 +1,46 @@
+:root {
+  --first-color: rgb(28, 101, 140);
+  --second-color: rgb(57, 138, 185);
+  --third-color: rgb(216, 210, 203);
+  --fourth-color: rgb(238, 238, 238);
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(44, 41, 44);
+  background-color: var(--fourth-color);
+}
+
+#main-header {
+  background: linear-gradient(315deg, var(--first-color), var(--second-color));
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--first-color);
+  border: 1px solid var(--first-color);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--first-color);
+}
+
+.btn:hover {
+  background-color: var(--second-color);
+  border-color: var(--second-color);
+}
+
+.btn-alt:hover {
+  background-color: var(--third-color);
+  border-color: transparent;
+}
