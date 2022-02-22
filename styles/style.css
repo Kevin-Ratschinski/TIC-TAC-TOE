@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: rgb(44, 41, 44);
-  background-color: var(--fourth-color);
+  background-color: rgb(244, 244, 244);
 }
 
 #main-header {
